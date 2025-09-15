@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos do corpo da pagina*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(139, 227, 233, 0.24);
+    font-size: large;
+    text-align: center;
+}
+
+/*estilos do  cabecalio*/
+header {
+    padding: 20px;
+    background-color: rgb(181, 210, 235);
+    color: rgb(20, 0, 0);
+    margin-bottom: 50px;
+    box-shadow: 0px 10px 10px rgba(39, 2, 2, 0.39);
+    border-radius: 50px;
+}
+
+/*estilos do conteudo principal*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(42, 136, 165);
+    padding: 10px 10px 10px 10px;
+}
+
+/*estilos dos paragrafos*/
+p {
+    font-weight: bold;
+    width: 400px;
+    max-width: 90%;
+}
+
+/*estilos do input*/
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+/*estilos do botao*/
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(58, 221, 8);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*estilos do rodape*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(181, 210, 235);
+    color: rgb(20, 0, 0);
+    box-shadow: 0px -10px 10px rgba(39, 2, 2, 0.39);
+    border-radius: 50px;;
+}
+
+/*estilos do link do rodape */
+footer a {
+    color: rgb(3, 79, 141);
+    font-weight: bold;
+}
+
+img {
+    margin-top: 20px;
+    width: 900px;
+    border-radius: 20px;
+}
